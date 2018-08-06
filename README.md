@@ -25,3 +25,4 @@ If you look at the `password_protect.php` source code you'll see following:
 Add following HTML code on your site pages wherever you want a logout link to be shown:  
 `<a href="http://www.example.com/path/to/protected/page.php?logout=1">Logout</a>`  
 Upon logout script will redirect user to the URL you specified on `LOGOUT_URL`.
+- Suggested file permissions `440` ( `-r--r-----` ).
